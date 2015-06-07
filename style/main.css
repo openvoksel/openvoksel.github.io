@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body,html {
+	height: 100%;
+	background-color: #fff;
+}
+#container {
+	margin: auto;
+	height: 100%;
+}
+#header {
+	font-family: monospace;
+	font-size: 2.6em;
+	height: auto;
+	min-height: 80px;
+	background-color: #540EAD;
+}
+#sideMenu {
+	float: left;
+	height: auto;
+	width: auto;
+	background-color: #9BBE00;
+	flex: 1;
+}
+#mainContent {
+	min-height: calc(100% - 160px);
+	background-color: #C9F600;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: stretch;
+}
+#content {
+	min-width: 75%;
+	flex: 5 25%;
+}
+#footer {
+	height: auto;
+	min-height: 80px;
+	background-color: #E7003E;
+	margin-bottom: 0px;
+}
